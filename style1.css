@@ -1,0 +1,293 @@
+.main{
+  margin-left:20%;
+  width:70%;
+  height:2210px;
+  background:#424040;
+  position:relative;
+}
+.over{
+  text-align:center;
+  margin-top:-20px;
+  color:white;
+}
+img{
+  position:absolute;
+  border-radius:50%;
+  width:10%;
+  height:80px;
+  margin-left:173px;
+  margin-top:34px;
+  border:3px solid white;
+}
+.para{
+  margin-top:80px;
+  margin-left:90px;
+  letter-spacing:5px;
+  color:white;
+}
+.main_head2>p{
+  line-height:0.1px;  
+}
+.main_head2>img{
+  margin-top:30px;
+  margin-left:30px;
+  width:40%;
+  border-radius:0%;
+  height:60px;
+}
+.obesity{
+  text-align:center;
+  padding-top:3px;
+  color: #f05454;
+  font-size:20px;
+  letter-spacing:3px;
+  text-shadow:2px 2px;
+}
+p{
+  text-align:center;
+  line-height:0.1px;
+  color:white;
+ text-shadow:1px 1px;
+}
+.main_head{
+  width:584px;
+  height:340px;
+  position:absolute;
+  top:8%;
+  left:45px;
+  
+}
+.main_head1{
+  width:292px;
+  height:340px;
+  background:#74b1f2;
+  margin-left:291.5px; 
+  margin-top:-36px;
+}
+.main_head1>p{
+   margin-top:38px;
+  padding-top:10.9px;
+}
+.main_head2{
+  width:292px;
+  height:340px;
+  background:orange;
+  margin-left:0px; 
+  margin-top:-340px;
+  
+}
+.est{
+  text-align:center;
+  margin-top:-4px;
+  color:white;
+  font-size:27px;
+  letter-spacing:4px;
+}
+.est+p{
+  margin:0;
+}
+.est+p+p{
+  margin:12px;
+}
+.week{
+  text-align:center;
+  margin-top:-6px;
+  color:white;
+  font-size:29px;
+  letter-spacing:2px;
+}
+.week+p{
+  margin:0
+}
+.week+p+p{
+  margin:19px;
+}
+.week+p+p+p{
+  margin:10px;
+}
+
+.obs0{
+  width:292px;
+  height:90px;
+  background:#f05454;
+  position:absolute;
+  top:98%;
+  left:25%;
+}
+.obs1{
+  background:#f05454;
+  width:584px;
+  height:98px;
+  margin-top:-13px;  
+}
+.obs1_para{
+  padding-top:1px;
+  color:#e7e6eb;
+  letter-spacing:0.3px;
+}
+.obs2{
+  width:292px;
+  height:90px;
+  background:#f05454;
+  position:absolute;
+  top:0%;
+  left:100%;
+}
+.habits{
+  margin-top:49px;
+  font-size:13px
+}
+.condition{
+  color:white;
+  margin-left:18px;
+  letter-spacing:2px;
+}
+.risky{
+  width:584px;
+  height:270px;
+  position:absolute;
+  top:237%;
+  left:-293px;
+}
+.risk{
+  color:white;
+  margin-left:26px;
+}
+.risk_rightpara{
+  margin-top:105px;
+  padding-top:75px;
+}
+.risk_left{
+  width:292px;
+  height:270px;
+  background:#74b1f2;
+  margin-top:-20px;
+}
+.risk_right{
+  width:292px;
+  height:270px;
+  background:#74b1f2;
+  margin-top:-375px;
+  margin-left:292px;
+}
+
+.french{
+  width:584px;
+  height:310px;
+  background:red;
+  position:absolute;
+  top:567%;
+  left:-100.2%;
+}
+.french_left{
+   width:292px;
+  height:310px;
+  background:#f05454;
+  margin-left:0px;
+  margin-top:-19.8px;
+
+}
+.fries{
+  color:white;
+  text-align:center;
+  padding-top:14px;
+}
+.fries~h1{
+  font-size:40px;
+}
+.image{
+  font-size:40px;
+  margin-top:13px;
+}
+.french_right{
+   width:292px;
+  height:310px;
+  background:orange;
+  margin-left:292px;
+  margin-top:-336.9px;
+}
+.image1{
+  font-size:40px;
+  text-align:center;
+  padding-top:20px;
+}
+.juice{
+  text-align:center;
+  color:white;
+  padding-top:0px;
+  letter-spacing:1.5px;
+}
+.juice~h1{
+  font-size:39px;
+}
+.tod{
+  width:585px;
+  height:180px;
+  background:#74b1f2;
+  position:absolute;
+  top:943%;
+  left:-100.2%;
+}
+.toddy{
+  margin-left:15px;
+  color:white;
+  font-size:39px;
+  letter-spacing:2px;
+}
+.tod_para{
+  margin-left:-270px;
+  margin-top:-10px;
+}
+.tod_image{
+  padding-left:270px;
+  padding-top:20px;
+}
+.near{
+  width:585px;
+  height:180px;
+  background:orange;
+  position:absolute;
+  top:1175%;
+  left:-100.2%;
+}
+.image_near{
+  padding-left:280px;
+  padding-top:20px;
+}
+.last_section{
+  position:absolute;
+  width:584px;
+  height:310px;
+  top:1409%;
+  left:-100.2%; 
+}
+
+.billion_left{
+  width:292px;
+  height:310px;
+  background:#74b1f2;
+  margin-top:-4.5%;
+}
+.money{
+  padding-top:19px;
+  text-align:center;
+  font-size:39px;
+  color:white;  
+}
+.health_right{
+  width:292px;
+  height:310px;
+  background:#f05454;
+  margin-left:291.9px;
+  margin-top:-330px;
+}
+.health{
+  color:white;
+  margin-left:15px;
+  padding-top:15px;
+}
+ul{
+  color:white;
+  list-style-type:none
+}
+
