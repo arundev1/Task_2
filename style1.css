@@ -1,7 +1,7 @@
 .main{
-  margin-left:20%;
-  width:900px;
-  height:2280px;
+ margin-left:20%;
+  width:840px;
+  height:2350px;
   background:#424040;
   position:relative;
 }
@@ -15,7 +15,7 @@ img{
   border-radius:50%;
   width:10%;
   height:80px;
-  margin-left:255px;
+  margin-left:229px;
   margin-top:34px;
   border:3px solid white;
 }
@@ -43,19 +43,43 @@ img{
   letter-spacing:3px;
   text-shadow:2px 2px;
 }
+.obs{
+  position:absolute;
+  width:584px;
+  height:240px;
+  background:#f05454;
+  top:99%;
+  left:320px;
+  
+}
+.obs1{
+  color:white;
+  margin-left:40px;
+  width:292px;
+  height:110px;
+}
+.obs2{
+  color:white;
+  margin-left:10px;
+  width:292px;
+  height:110px;
+  margin-left:310px;
+  margin-top:-110px;
+  line-height:0.1em
+}
+
 p{
   text-align:center;
   line-height:0.1px;
   color:white;
- text-shadow:1px 1px;
 }
 .main_head{
   width:584px;
   height:340px;
   position:absolute;
-  top:8%;
-  left:180px;
-  
+  top:-565%;
+  left:0%;
+
 }
 .main_head1{
   width:292px;
@@ -63,6 +87,7 @@ p{
   background:#74b1f2;
   margin-left:291.5px; 
   margin-top:-36px;
+  
 }
 .main_head1>p{
    margin-top:38px;
@@ -74,7 +99,7 @@ p{
   background:orange;
   margin-left:0px; 
   margin-top:-340px;
-  
+  float:left;
 }
 .est{
   text-align:center;
@@ -106,56 +131,22 @@ p{
   margin:10px;
 }
 
-.obs0{
-  width:292px;
-  height:90px;
-  background:#f05454;
-  position:absolute;
-  top:77%;
-  left:32%;
-}
-.obs1{
-  background:#f05454;
-  width:584px;
-  height:98px;
-  margin-top:-13px;  
-}
-.obs1_para{
-  padding-top:1px;
-  color:#e7e6eb;
-  letter-spacing:0.3px;
-}
-.obs2{
-  width:292px;
-  height:90px;
-  background:#f05454;
-  position:absolute;
-  top:0%;
-  left:100%;
-}
-.habits{
-  margin-top:49px;
-  font-size:13px
-}
-.condition{
-  color:white;
-  margin-left:18px;
-  letter-spacing:2px;
-}
+
 .risky{
   width:584px;
   height:270px;
   position:absolute;
-  top:237%;
-  left:-293px;
+  top:149%;
+  left:320px;
 }
 .risk{
+  padding-top:7px;
   color:white;
   margin-left:26px;
 }
 .risk_rightpara{
   margin-top:105px;
-  padding-top:75px;
+  padding-top:79px;
 }
 .risk_left{
   width:292px;
@@ -176,8 +167,8 @@ p{
   height:310px;
   background:red;
   position:absolute;
-  top:567%;
-  left:-100.2%;
+  top:205%;
+  left:320px;
 }
 .french_left{
    width:292px;
@@ -225,8 +216,8 @@ p{
   height:180px;
   background:#74b1f2;
   position:absolute;
-  top:943%;
-  left:-100.2%;
+  top:269%;
+  left:320px;
 }
 .toddy{
   margin-left:15px;
@@ -239,7 +230,7 @@ p{
   margin-top:-10px;
 }
 .tod_image{
-  padding-left:180px;
+  padding-left:270px;
   padding-top:20px;
 }
 .near{
@@ -247,19 +238,19 @@ p{
   height:180px;
   background:orange;
   position:absolute;
-  top:1175%;
-  left:-100.2%;
+  top:309%;
+  left:320px;
 }
 .image_near{
-  padding-left:180px;
+  padding-left:280px;
   padding-top:20px;
 }
 .last_section{
   position:absolute;
   width:584px;
   height:310px;
-  top:1409%;
-  left:-100.2%; 
+  top:350%;
+  left:320px; 
 }
 
 .billion_left{
@@ -290,4 +281,6 @@ ul{
   color:white;
   list-style-type:none
 }
+
+
 
