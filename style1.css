@@ -1,112 +1,83 @@
-.main{
- margin-left:20%;
-  width:805px;
-  height:2400px;
-  background:#424040;
-  position:relative;
+.main {
+    width: 600px;
+    margin: auto;
+    background-color: #303E47;
+    padding-bottom: 70px;
+}
+.obes {
+    font-size: 48px;
+    font-weight: 600;
+    text-align: left;
+    color: #FF595C;
+    font-family: sans-serif;
+}
+.child {
+    text-align: left;
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+header {
+    padding-top: 56px;
+    text-align: center;
+    height: 117px;
+  position: relative;
+  top: -19px
+}
+span {
+    display: inline-block;
 }
 .over{
   text-align:center;
   margin-top:-20px;
   color:white;
 }
-img{
-  position:absolute;
-  border-radius:50%;
-  width:10%;
-  height:80px;
-  margin-left:220px;
-  margin-top:34px;
-  border:3px solid white;
-}
-.para{
-  margin-top:80px;
-  margin-left:90px;
-  letter-spacing:5px;
-  color:white;
-}
-.main_head2>p{
-  line-height:0.1px;  
-}
-.main_head2>img{
-  margin-top:30px;
-  margin-left:30px;
-  width:40%;
-  border-radius:0%;
-  height:60px;
-}
-.obesity{
-  text-align:center;
-  padding-top:3px;
-  color: #f05454;
-  font-size:20px;
-  letter-spacing:3px;
-  text-shadow:2px 2px;
-}
-.obs{
-  position:absolute;
-  width:584px;
-  height:240px;
-  background:#f05454;
-  top:77%;
-  left:320px;
-  
-}
-.obs1{
-  color:white;
-  margin-left:40px;
-  width:292px;
-  height:110px;
-}
-.obs2{
-  color:white;
-  margin-left:10px;
-  width:292px;
-  height:110px;
-  margin-left:310px;
-  margin-top:-110px;
-  line-height:0.1em
-}
-
-p{
-  text-align:center;
-  line-height:0.1px;
-  color:white;
-}
 .main_head{
   width:584px;
   height:340px;
-  position:absolute;
-  top:-572%;
-  left:0%;
-
+  margin-top:320px;
+  margin-left:10px;
+  background:red;
 }
-.main_head1{
-  width:292px;
-  height:340px;
-  background:#74b1f2;
-  margin-left:291.5px; 
-  margin-top:-36px;
-  
+.main_head_left>h1{
+  text-align:center;
+  font-weight:1700;
+  color:white;
+  margin-top:5px;
 }
-.main_head1>p{
-   margin-top:38px;
-  padding-top:10.9px;
-}
-.main_head2{
+.main_head_left{
   width:292px;
   height:340px;
   background:orange;
   margin-left:0px; 
   margin-top:-340px;
-  float:left;
+}
+.main_head_left>p{
+  line-height:0.1px;
+  text-align:center;
+  color:white;
+}
+.main_head_left>img{
+  margin-top:20px;
+  margin-left:80px;
+  width:40%;
+  border-radius:0%;
+  height:60px;
+}
+.estimate{
+  padding-top:19px;
 }
 .est{
   text-align:center;
-  margin-top:-4px;
+  margin-top:-10px;
   color:white;
   font-size:27px;
   letter-spacing:4px;
+  font-weight:700;
+}
+.para{
+  text-align:center;
+  color:white;
 }
 .est+p{
   margin:0;
@@ -130,65 +101,108 @@ p{
 .week+p+p+p{
   margin:10px;
 }
-
-
+.main_head_right{
+  width:292px;
+  height:340px;
+  background:#74b1f2;
+  margin-left:292.5px; 
+  margin-top:-340px;
+  
+}
+.main_head_right>p{
+   margin-top:38px;
+  padding-top:10.9px;
+}
+.obs{
+  
+  width:584px;
+  height:240px;
+  background:#f05454;
+  margin-top:40px;
+  margin-left:10px;
+  
+}
+.obs1{
+  color:white;
+  margin-left:40px;
+  width:292px;
+  height:110px;
+  padding-top:3px;
+}
+.obs2{
+  color:white;
+  width:292px;
+  height:110px;
+  margin-left:310px;
+  margin-top:-110px;
+  line-height:0.1em;
+  padding-top:16px;
+}
+.obs3{
+  color:white;
+  margin-left:30px;
+  margin-top:-12px;
+}
 .risky{
   width:584px;
   height:270px;
-  position:absolute;
-  top:117%;
-  left:320px;
+  margin-top:65px;
+ margin-left:10px;
 }
 .risk{
-  padding-top:7px;
+  padding-top:1px;
   color:white;
   margin-left:26px;
 }
 .risk_rightpara{
   margin-top:105px;
   padding-top:79px;
+  color:white;
 }
 .risk_left{
   width:292px;
   height:270px;
   background:#74b1f2;
   margin-top:-20px;
+  color:white;
+  padding-left:19px;
 }
 .risk_right{
   width:292px;
   height:270px;
   background:#74b1f2;
   margin-top:-375px;
-  margin-left:292px;
+  margin-left:292px; 
 }
-
 .french{
   width:584px;
   height:310px;
   background:red;
-  position:absolute;
-  top:161%;
-  left:320px;
+  margin-top:65px;
+  margin-left:10px;
 }
 .french_left{
    width:292px;
   height:310px;
   background:#f05454;
-  margin-left:0px;
   margin-top:-19.8px;
+  color:white;
 
 }
 .fries{
   color:white;
   text-align:center;
-  padding-top:14px;
+  padding-top:7px;
 }
-.fries~h1{
+.para>h1{
   font-size:40px;
+  padding-top:1px;
+  
 }
 .image{
   font-size:40px;
-  margin-top:13px;
+  margin-top:6px;
+  text-align:center;
 }
 .french_right{
    width:292px;
@@ -196,16 +210,20 @@ p{
   background:orange;
   margin-left:292px;
   margin-top:-336.9px;
+  color:white;
+}
+.para{
+  text-align:center;
 }
 .image1{
   font-size:40px;
   text-align:center;
-  padding-top:20px;
 }
 .juice{
   text-align:center;
   color:white;
-  padding-top:0px;
+  padding-top:-15px;
+  padding-left:10px;
   letter-spacing:1.5px;
 }
 .juice~h1{
@@ -215,42 +233,35 @@ p{
   width:585px;
   height:180px;
   background:#74b1f2;
-  position:absolute;
-  top:210%;
-  left:320px;
+  margin-top:45px;
+  margin-left:10px;
 }
 .toddy{
   margin-left:15px;
+  margin-top:-90px;
   color:white;
   font-size:39px;
   letter-spacing:2px;
 }
 .tod_para{
-  margin-left:-270px;
+  margin-left:20px;
   margin-top:-10px;
-}
-.tod_image{
-  padding-left:270px;
-  padding-top:20px;
+  color:white;
 }
 .near{
   width:585px;
   height:180px;
   background:orange;
-  position:absolute;
-  top:242%;
-  left:320px;
-}
-.image_near{
-  padding-left:280px;
-  padding-top:20px;
+  margin-top:45px;
+  margin-left:10px;
 }
 .last_section{
-  position:absolute;
+ 
   width:584px;
   height:310px;
-  top:273%;
-  left:320px; 
+  margin-top:75px;
+  margin-left:10px; 
+  color:white;
 }
 
 .billion_left{
@@ -260,7 +271,7 @@ p{
   margin-top:-4.5%;
 }
 .money{
-  padding-top:19px;
+  padding-top:7px;
   text-align:center;
   font-size:39px;
   color:white;  
@@ -277,10 +288,11 @@ p{
   margin-left:15px;
   padding-top:15px;
 }
+.billion_left>p{
+  text-align:center;
+}
+
 ul{
   color:white;
   list-style-type:none
 }
-
-
-
